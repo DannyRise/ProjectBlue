@@ -1,0 +1,105 @@
+@import url("global.css");
+
+#welcome-section {
+  /* position: relative; */
+  height: 100vh;
+  overflow: hidden;
+}
+
+#welcome-section-background {
+  position: absolute;
+  max-height: 100vh;
+}
+
+#welcome-section-background p {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #212932;
+  font-size: 60vh;
+  letter-spacing: 25px;
+}
+
+#bg-01 {
+  margin-top: -10vh;
+  margin-left: -13vh;
+}
+
+#bg-02 {
+  margin-top: -18vh;
+  margin-left: -24vh;
+}
+
+#bg-shape-01 {
+  position: absolute;
+  border-top: 37vh solid transparent;
+  border-right: 100vw solid #ff4655;
+  height: 19vh;
+  left: 0;
+  bottom: 0;
+}
+
+#welcome-section-text {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#welcome-section-text div,
+#welcome-section-text p{
+  position: absolute;
+}
+
+#name-top,
+#name-middle,
+#name-bottom {
+  text-align: center;
+  z-index: 1;
+}
+
+#name-top,
+#name-bottom {
+  position: absolute;
+  font-size: 10vw;
+  letter-spacing: 1vw;
+}
+
+#name-top {
+  margin-bottom: 53vw;
+  text-indent: 2vw;
+}
+
+#name-middle {
+  font-size: 59vw;
+  /* letter-spacing: 5vw;
+  text-indent: 5vw; */
+}
+
+#name-bottom {
+  margin-top: 55vw;
+  text-indent: 4vw;
+}
+
+/* #background-name{
+
+} */
+
+/* 
+@media (min-width: 1200px) {
+  .section-height {
+    min-height: 700px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-height {
+    min-height: 600px;
+  }
+
+  #wrapper-intro {
+  border: #ff4655 5px solid;
+  top: 1.5vw;
+  left: 1.5vw;
+  right: 1.5vw;
+  bottom: 1.5vw;
+  }
+} */
